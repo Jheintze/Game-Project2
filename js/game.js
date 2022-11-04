@@ -52,7 +52,7 @@ class Game {
 				document.querySelector("span").innerText = this.lives
 			}
 		})
-       if (this.obstacles.length > 100){
+       if (this.obstacles.length > 130){
 			//textSize(100)
 			//fill("red")
 			// rect(0,0,width,height)
