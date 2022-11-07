@@ -14,13 +14,13 @@ class Game {
 
 	preload() {
 		this.backgroundImages = [
-			{ src: loadImage("../assets/helmholtz.jpg"), x: 0, speed: 5 },
+			{ src: loadImage("assets/helmholtz.jpg"), x: 0, speed: 5 },
 			
 		]
-		this.gameOver = loadImage("../assets/gameover.jpg")
-        this.Mutti = loadImage("../assets/pics/momsticker2.webp")
-		this.playerImage = loadImage("../assets/walkingdude2.gif")
-		this.win2 = loadImage("../assets/win2.jpg")
+		this.gameOver = loadImage("assets/gameover.jpg")
+        this.Mutti = loadImage("assets/pics/momsticker2.webp")
+		this.playerImage = loadImage("assets/walkingdude2.gif")
+		this.win2 = loadImage("assets/win2.jpg")
 		
 	}
     draw() {
